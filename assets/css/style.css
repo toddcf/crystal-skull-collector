@@ -1,4 +1,8 @@
-
+.container-fluid {
+	background-color: black;
+	margin: 0 auto;
+	width: 100%;
+}
 
 #header {
 	background-color: #ffcc00;
@@ -12,4 +16,10 @@ h1 {
 	font-size: 75px;
 	font-style: italic;
 	text-align: center;
+}
+
+#indiana {
+	margin: auto;
+	width: 700px;
+	padding: 30px;
 }

@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<!-- Font Links -->
-	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Irish+Grover|Permanent+Marker" rel="stylesheet">
 
 	<title>Collector of the Crystal Skulls!</title>
 </head>
@@ -28,19 +28,17 @@
 		<!-- Header row -->
 		<div class="row">
 			<div class="col-xs-12" id="header">
-				<h1>Collector of the Crystal Skulls!</h1>
+				<h1 class="attention">Collector of the Crystal Skulls!</h1>
 			</div>
 		</div>
 
 		<!-- Indiana Jones image row -->
 		<div class="row">
-			<!-- Indiana Jones image CENTER -->
 			<div class="col-xs-12">
 				<div id="indiana">
 					<img src="assets/img/indiana.png" alt="Indiana Jones">
 				</div>
 			</div>
-
 		</div>
 
 		<!-- Scoreboard and Instructions row -->
@@ -49,17 +47,39 @@
 			<div class="col-xs-2"></div>
 
 			<!-- Scoreboard -->
-			<div class="col-xs-6">
+			<div class="col-xs-6" id="scoreboard">
+				<!-- Display Target Score -->
+				<div id="random-number">
+					<h2 class="attention">Scoreboard</h2>
+					<h3 class="marker">Maximum Value You Can Carry:</h3>
+					<p><h1><span id="targetScore"></span></h1></p>
+				</div>
 				
+				<!-- Display Your Current Score -->
+				<div id="your-score">
+					<h3 class="marker">Total Value of Crystals You're Holding: <span id="yourScore"></span></h3><br>
+
+					<h3 class="marker">Your Wins: <span id="winCount"></span></h3>
+					
+					<h3 class="marker">Your Losses: <span id="lossCount"></span></h3>
+				</div>
 			</div>
 
 			<!-- Instructions -->
-			<div class="col-xs-2">
-				
+			<div class="col-xs-3">
+				<div id="instructions">
+					<h2 class="attention">Instructions</h2><br>
+					<ol>
+						<li>Each crystal has a hidden value. Click on crystals to collect them.</li><br>
+						<li>Watch your score increase with each crystal you collect.</li><br>
+						<li>Collect enough crystals to match the maximum value without going over, and you escape with your life!</li><br>
+						<li>But be careful -- take more crystals than the maximum value, and the walls of the cave will collapse on you!</li>
+					</ol>
+				</div>
 			</div>
 
 			<!-- Empty Placeholder RIGHT -->
-			<div class="col-xs-2"></div>
+			<div class="col-xs-1"></div>
 		</div>
 
 		<!-- Crystal Skull images row -->

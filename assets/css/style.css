@@ -11,15 +11,55 @@
 	clear: both;
 }
 
-h1 {
+.attention {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 75px;
 	font-style: italic;
 	text-align: center;
+	color: black;
+}
+
+h1 {	
+	font-size: 75px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+h3 {
+	font-size: 30px;
 }
 
 #indiana {
 	margin: auto;
 	width: 700px;
 	padding: 30px;
+}
+
+#scoreboard {
+	/*float: left;*/
+	margin: 10px;
+	width: 40%;
+	background-color: #bfbfbf;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.marker {
+	text-align: center;
+	font-family: 'Irish Grover', cursive;
+}
+
+#instructions {
+	background-color: #ffcc00;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+li {
+	text-align: justify;
+	margin-left: -20px;
+	font-family: 'Irish Grover', cursive;
+	font-size: 18px;
 }

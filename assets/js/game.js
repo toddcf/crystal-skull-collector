@@ -88,4 +88,22 @@ $( document ).ready(function() {
 		}
 	}
 
+	// MAIN PROCESSES
+
+	startGame();
+
+	// Click event for each individual crystal:
+	$("#blue").click(function() {
+		updateScores(crystal.blue);
+	});
+	$("#green").click(function() {
+		updateScores(crystal.green);
+	});
+	$("#red").click(function() {
+		updateScores(crystal.red);
+	});
+	$("#violet").click(function() {
+		updateScores(crystal.violet);
+	});
+
 });

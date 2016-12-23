@@ -87,9 +87,10 @@ button {
 	border-radius: 35px;
 }
 
-/*.crystals {
-	background-color: black;
-}*/
+.crystals:hover {
+	opacity: 0.85;
+	cursor: pointer;
+}
 
 #footer {
 	background-color: #ffcc00;

@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-	
+
 	// DECLARE GLOBAL VARIABLES
 
 	// One object containing all the crystals:
@@ -53,11 +53,13 @@ $( document ).ready(function() {
 	}
 
 	// Update scores accordingly when crystals are clicked:
-	var updateScores = function() {
+	var updateScores = function(crystal) {
 		// When a crystal is clicked, add its value to the currentScore and save this as the new currentScore:
 		currentScore = currentScore + crystal.value;
+		// Test:
+		console.log("Your Score: " + currentScore);
 		// Update HTML to reflect the new currentScore:
-		$("#currentScore").html(currentScore);
+		$("#yourScore").html(currentScore);
 		// After each click, check if the player has won (or lost, for that matter):
 		checkWin();
 	}

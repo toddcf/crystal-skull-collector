@@ -1,6 +1,16 @@
 # Collector of the Crystal Skulls!
 Help Indiana Jones collect as many crystal skulls as possible and escape with his life. But be careful -- if you take too many, the walls of the cave will collapse on you!
 
+## How The Gameplay Works
+Indiana Jones is deep in a cave, collecting crystal skulls. But the cave is threatening to collapse, and Indy can only grab so many crystals without causing his own death.
+
+At the start of each game, each of the four different-colored crystals is assigned a random value between 1 - 12. The total value of crystals Indy can take without dying is also randomly generated. (This will be a number between 19 and 120.)
+
+Start gathering crystals by clicking on the four images at the bottom of the page. Watch as the total value of the crystals you are holding edges closer and closer to the limit. You must hit the target score exactly to escape!
+
+### Hint
+As you click on each crystal, pay attention to each one's value by watching how much your score as increased. Use these values to judge which crystals to pick up as you get closer and closer to your target score. You don't want to go over by accident!
+
 ## How The Code Works
 ### Global Variables
 All the crystals (and their values) are contained inside one object.

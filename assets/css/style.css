@@ -74,6 +74,23 @@ li {
 	font-size: 18px;
 }
 
+button {
+	margin-top: 10px;
+	padding: 0;
+	border: none;
+	background-color: black;
+}
+
+.crystal-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 35px;
+}
+
+/*.crystals {
+	background-color: black;
+}*/
+
 #footer {
 	background-color: #ffcc00;
 	text-align: center;

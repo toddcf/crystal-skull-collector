@@ -9,7 +9,7 @@ At the start of each game, each of the four different-colored crystals is assign
 Start gathering crystals by clicking on the four images at the bottom of the page. Watch as the total value of the crystals you are holding edges closer and closer to the limit. You must hit the target score exactly to escape!
 
 ### Hint
-As you click on each crystal, pay attention to each one's value by watching how much your score as increased. Use these values to judge which crystals to pick up as you get closer and closer to your target score. You don't want to go over by accident!
+As you click on each crystal, try to figure out each one's value by watching how much your score as increased. Use these values to judge which crystals to pick up as you get closer and closer to your target score. You don't want to go over by accident!
 
 ## How The Code Works
 ### Global Variables

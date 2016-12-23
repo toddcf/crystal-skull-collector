@@ -30,6 +30,16 @@ h3 {
 	font-size: 30px;
 }
 
+h4 {
+	font-size: 16px;
+	font-family: 'Irish Grover', cursive;
+	color: black;
+}
+
+a {
+	color: black;
+}
+
 #indiana {
 	margin: auto;
 	width: 700px;
@@ -62,4 +72,12 @@ li {
 	margin-left: -20px;
 	font-family: 'Irish Grover', cursive;
 	font-size: 18px;
+}
+
+#footer {
+	background-color: #ffcc00;
+	text-align: center;
+	padding: 5px;
+	clear: both;
+	margin-top: 20px;
 }

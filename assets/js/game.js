@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-
+	
 	// DECLARE GLOBAL VARIABLES
 
 	// One object containing all the crystals:

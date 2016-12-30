@@ -26,3 +26,7 @@ A function to calculate the current score each time a crystal is "collected," an
 A function to check if the player has won or lost on this turn. If they won, they are congratulated and the game is reset (with a "win" added to their tally). If they lost, they are regrettably informed and the game is reset (with a "loss" is added to their tally). If neither, the current game continues.
 ###Main Processes
 This is where the "start game" function is actually called. jQuery click events for each crystal button are also found here.
+
+## Future Iterations
+
+- Improve mobile responsiveness. (Specifically the "Instructions" div.)

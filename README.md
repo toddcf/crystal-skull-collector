@@ -1,6 +1,8 @@
 # Collector of the Crystal Skulls!
 Help Indiana Jones collect as many crystal skulls as possible and escape with his life. But be careful -- if you take too many, the walls of the cave will collapse on you!
 
+![Collector of the Crystal Skulls](https://github.com/toddcf/crystal-skull-collector/blob/master/assets/img/indiana.png "Collector of the Crystal Skulls")
+
 ## How The Gameplay Works
 Indiana Jones is deep in a cave, collecting crystal skulls. But the cave is threatening to collapse, and Indy can only grab so many crystals without causing his own death.
 
